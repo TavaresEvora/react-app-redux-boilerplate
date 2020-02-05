@@ -1,0 +1,1 @@
+export const getFirstStateExample = state => state.firstReducer.firstStateExample

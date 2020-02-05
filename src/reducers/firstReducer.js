@@ -1,7 +1,7 @@
 import { FIRST_ACTION } from '../constants/ActionTypes'
 
 const initialState = {
-  firstAction: false
+  firstStateExample: false
 }
 
 export default (state = initialState, action) => {
@@ -9,7 +9,7 @@ export default (state = initialState, action) => {
     case FIRST_ACTION:
       return {
         ...state,
-        firstAction: true
+        firstStateExample: true
       }
 
     default:
